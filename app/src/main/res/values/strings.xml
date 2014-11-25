@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GalleryLib</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_explorer">ExplorerAct</string>
+    <string name="title_activity_gallery">GalleryAct</string>
+    <string name="title_activity_video_play">VideoPlayAct</string>
+    <string name="title_activity_share">ShareAct</string>
+    <string name="app_id">699099240177800</string>
+    <string name="title_activity_share_face_book">ShareFaceBook</string>
+    <!-- 487301778073421 -->
+    <string name="title_activity_contact">ContactAct</string>
+    <string name="title_activity_share_email">ShareEmailAct</string>
+
+</resources>

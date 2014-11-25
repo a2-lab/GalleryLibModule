@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.lib.kyrva.gallerylib.ShareFaceBook">
+
+    <!--<Button-->
+		<!--android:layout_width="75dp"-->
+		<!--android:layout_height="75dp"-->
+		<!--android:background="@drawable/facebook_icon"-->
+		<!--android:layout_alignParentRight="true"-->
+		<!--android:id="@+id/shareToFaceBookBut"/>-->
+  <com.facebook.widget.LoginButton
+	  android:id="@+id/authButton"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginTop="10dp"/>
+  <!--<TextView android:layout_width="wrap_content"-->
+			<!--android:layout_height="wrap_content"-->
+	  <!--android:id="@+id/tView"-->
+	  <!--android:layout_marginTop="10dp"-->
+	  <!--android:layout_centerHorizontal="true"-->
+	  <!--android:layout_below="@+id/authButton"/>-->
+
+  <Button android:layout_width="75dp"
+		  android:layout_height="75dp"
+		  android:id="@+id/twitterShareBut"
+		  android:onClick="shareToTwitter"
+		  android:background="@drawable/twitter_icon"
+		  android:layout_toRightOf="@+id/authButton"
+	  android:layout_marginLeft="10dp"/>
+  <Button android:layout_width="75dp"
+		  android:layout_height="75dp"
+		  android:background="@drawable/email_icon"
+		  android:onClick="emailShare"
+		  android:layout_toRightOf="@+id/twitterShareBut"
+		  android:layout_marginLeft="10dp"/>
+</RelativeLayout>

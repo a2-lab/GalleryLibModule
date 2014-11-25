@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@android:color/background_dark"
+    tools:context="com.lib.kyrva.gallerylib.GalleryAct">
+
+  <com.lib.kyrva.gallerylib.MyGallery
+	  android:id="@+id/gallery"
+	  android:layout_width="fill_parent"
+	  android:background="@android:color/background_dark"
+	  android:layout_height="fill_parent" />
+  <LinearLayout
+	  android:id="@+id/admob"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentBottom="true"
+	  android:orientation="horizontal">
+  </LinearLayout>
+  <RelativeLayout
+	  android:id="@+id/relLayMenuBar"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:background="@android:color/transparent" >
+
+	<Button
+		android:id="@+id/delBut"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="5dp"
+		android:onClick="deleteImage"
+		android:background="@drawable/delete_icon" />
+
+	<Button
+		android:id="@+id/shareBut"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/delBut"
+		android:layout_marginRight="15dp"
+		android:onClick="shareImage"
+		android:background="@drawable/share_icon" />
+
+	<!--<Button-->
+		<!--android:id="@+id/playBut"-->
+		<!--android:layout_width="wrap_content"-->
+		<!--android:layout_height="wrap_content"-->
+		<!--android:onClick="playSound"-->
+		<!--android:layout_centerInParent="true"-->
+		<!--android:background="@drawable/play_icon" />-->
+  </RelativeLayout>
+
+</RelativeLayout>

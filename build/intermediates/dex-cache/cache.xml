@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/root/Android_Libs/GalleryLib/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-7f40b80bebff691bedaa3d7f9460dd31c74e876b.jar"
+        jar="/root/Programs/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/root/Android_Libs/GalleryLib/app/build/intermediates/pre-dexed/debug/classes-2455ea1eebb013dc575d985fe8dcefd4fefa8c43.jar"
+        jar="/root/Android_Libs/GalleryLib/app/build/intermediates/exploded-aar/GalleryLib/gestureimageview/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="93c8ba4958949ce7c178082985229900368f16de"/>
+    <item
+        dex="/root/Android_Libs/GalleryLib/app/build/intermediates/pre-dexed/debug/bolts-554c7f630be51ddf2eb893a54cb850794e4a3b20.jar"
+        jar="/root/Android_Libs/GalleryLib/app/build/intermediates/exploded-aar/GalleryLib/facebook/unspecified/libs/bolts.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef"/>
+    <item
+        dex="/root/Android_Libs/GalleryLib/app/build/intermediates/pre-dexed/debug/classes-49ab43ae5601c720a92ef43e7b07fa23b6543201.jar"
+        jar="/root/Android_Libs/GalleryLib/app/build/intermediates/exploded-aar/GalleryLib/facebook/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0211865a5b1d41a1f2035311218a76acbd698355"/>
+    <item
+        dex="/root/Android_Libs/GalleryLib/app/build/intermediates/pre-dexed/debug/commons-io-2.4-a52dd6576e40527b9fb2a1cdbb70970722825af7.jar"
+        jar="/root/Android_Libs/GalleryLib/app/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"/>
+    <item
+        dex="/root/Android_Libs/GalleryLib/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-8b49c5053db94a6baa3bdd4aa1e8697b5b9f527d.jar"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72"/>
+
+</pre-dex-items>
